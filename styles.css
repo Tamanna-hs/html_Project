@@ -1,0 +1,126 @@
+.img{
+  /* transform: translate(100%, 50%); */
+  position:fixed;
+object-position: center}
+
+.link{
+  position: fixed;
+
+right: 0;
+
+top: 0;
+
+width: 260px;
+
+border: 3px solid #73AD21;
+
+
+}
+
+div{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    width: 520px;
+    border-width: 20px;
+    top: 50%;
+    left: 55%;
+    transform: translate(-70%, -50%);
+    height: 40px;
+    border-radius: 110px;
+    padding: 1px;
+    border: solid;
+    background: white;
+    border-color: DarkGrey;
+    
+}
+
+.search_img{
+  justify-content: center;
+    text-align:center;
+    align-items: center;
+    min-height: 50vh;
+    left:50%;
+    transform: translate(55%, 10%);
+
+
+}
+.search-text{
+  text-align: start;
+  position:initial;
+  border: none;          
+  background:none;
+  outline: none;
+  float:right;
+  padding: 5px;
+  font-size: 16px;
+  transition: 80px;
+  transform: translate(0%, -55%);
+  line-height: 30px;
+  width: 500px; 
+}
+
+.btn_img{
+  border: none;         
+  position: absolute;
+  top: 30%;
+  bottom: 60%;
+  left: 95%;
+  right: 0%;
+  width: 0%;
+  height:40%;
+  z-index: 10;
+  cursor: pointer;
+  color: blue;
+  background: none;
+}
+
+section{
+  font-size: 20px;
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  border-width: 20px; 
+  text-align:justify;
+  transform: translate(2%, -40%);
+  top:20%;
+  height: 20px;
+  left: 0%;
+
+}
+
+h2{
+  color:maroon;
+}
+
+.btn_adv{
+ padding: auto;
+ background-color: blue;
+ color:white;
+ border: none;
+ text-align:left;
+    position:absolute;
+    font-size: 15px;
+    /* transform: translate(100%, 50%); */
+    transform: translate(0%, -30%);
+    height: 30px;  
+    background: blue;
+}
+
+.allWords{
+  padding-left : 5px;
+  text-align: left;
+}
+.exactWords{
+  box-sizing: 50px;
+  padding-left : 5px;
+}
+.anyWord{
+  box-sizing: 20px;
+  padding-left : 5px;
+}
+.noneWord{
+  box-sizing: 20px;
+  padding-left : 5px;
+}
+
